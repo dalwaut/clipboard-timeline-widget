@@ -1,0 +1,17 @@
+{
+  "id": "clipboard-timeline",
+  "name": "Clipboard Timeline",
+  "description": "Lightweight clipboard history with pin favorites and time tracking",
+  "version": "1.0.0",
+  "author": "Boutabyte",
+  "url": "https://github.com/dalwaut/clipboard-timeline-widget",
+  "entry": "clipboard-timeline-widget.py",
+  "icon": "icon.png",
+  "category": "Productivity",
+  "requires": ["python3-gi", "python3-gi-cairo"],
+  "theme": {
+    "bg": "#1c1724",
+    "accent": "#a872d9",
+    "text": "#e0d8ea"
+  }
+}
