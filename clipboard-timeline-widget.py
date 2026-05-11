@@ -553,6 +553,7 @@ class ClipboardTimelineWidget(Gtk.Window):
 
 if __name__ == "__main__":
     signal.signal(signal.SIGINT, signal.SIG_DFL)
+    signal.signal(signal.SIGTERM, lambda *_: Gtk.main_quit())
     w = ClipboardTimelineWidget()
     w.connect("destroy", Gtk.main_quit)
     Gtk.main()
